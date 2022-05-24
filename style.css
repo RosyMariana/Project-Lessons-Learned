@@ -1,0 +1,131 @@
+* {
+    background-color:rgb(253,251,251);
+}
+#cabecalho { /* cabeçalho */
+
+    padding: 10px; /* distância entre o conteúdo de um elemento e suas bordas */
+    position: fixed; /* define a posiçao como fixa */
+    top:0; /* distanciamento do elemento ao topo da pagina */
+    height: 100px; /* altura */
+    width: 1366px; /* largura */
+    border: 5px solid rgb(6, 39, 21); /* propriedades da borda */
+    background-color: rgb(6, 39,21); /* define a cor de fundo do elemento */
+}
+
+h1 {
+    background-color: rgb(6, 39,21); /* define a cor de fundo do elemento */
+    color: blanchedalmond; /* cor da fonte de h1 */
+}
+
+#minha_foto {
+    width: 200px; /* determina a largura da area contendo o elemento */
+    position: absolute; /* define a posiçao como absoluta (posiciona o elemento de acordo com o elemento pai) */
+    left: 50px; 
+    top: 150px;
+
+}
+
+.lado-esquerdo {
+    min-height: min-content;
+    width: 700px;
+    margin-right: 700px;
+    float: left;
+    margin-block-start: 30px;
+    border: 5px solid black;
+    height: 500;
+  
+}
+
+.lado-direito {    
+    margin-bottom: 50px;
+    float: right;
+    width: 450px; 
+    border: 5px solid black;
+    right: 100px;
+    height: 100px;
+    
+}
+
+
+
+#coluna1 {
+    position: absolute;
+    top: 350px;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 400px;
+}
+
+#coluna2 {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+      
+}
+#licoes_a_aprender {
+    position: absolute;
+    left: 300px;
+}
+
+#rodape {
+    position: absolute;
+    top: 766px;
+    font-size: 15px;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 5px;
+    margin: 10px;
+}
+
+#article {
+    position: absolute;
+    top: 600px;
+    bottom: 150px;
+  
+}
+
+nav {
+    top: 200px;
+}
+
+
+#aside {
+    position: relative;
+    top: 630px;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+
+#coluna3 {
+    position: absolute;
+    left: 900px;
+    top: 380px;
+}
+
+h3,ul {
+    position: absolute;
+    left: 900px;
+    top: 430px;
+}
+
+#table {
+    position: absolute;
+    left: 900px;
+    top: 250px;    
+}
+
+td {
+   border: 2px solid #ddd;
+}
+
+#tituloTabela {
+    position: absolute;
+    left: 800px;
+    top: 300px;
+}
